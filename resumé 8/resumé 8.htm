@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width", initial scale="1.0">
+    </head>
+<body>
+        <h1>Picture Element</h1>
+        <h2>Deliver the right media for the right device</h2>
+        <div> <!--this to to make image appear on tablet phone and laptop screen-->
+            <picture>
+                <source srcset="images/tablet.jpg" media="(max-width:1080px)">
+                <source srcset="images/phone.jpg" media="(max-width:1000px)">
+                <img src="images/heads and shoulders.jpg" alt="landscape">
+            </picture>
+        </div>
+</body>
+</html>
